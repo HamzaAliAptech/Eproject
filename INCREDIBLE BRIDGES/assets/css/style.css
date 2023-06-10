@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+.body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    background: #ffffff;
+    overflow-x: hidden;
+    font-size: 14px; }
+    .body:before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 99;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+    .body.offcanvas-menu:before {
+      opacity: 1;
+      visibility: visible; }
+.nav-logo{
+    border-radius: 40px;
+    
+}
+.img-li:hover{
+    background-color:rgb(252, 185, 162);
+    display: block;
+    border-radius: 25px;
+    color:red;
+}
+.nav-2nd{
+    padding-left: 230px;
+    
+}
+
+
+.img-header{
+    background-image: url(/assets/images/img-header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-attachment: fixed;
+    
+    
+    
+    
+
+}
+
+
+.banner{
+    padding-top: 80px;
+    
+}
+
+
+.h12{
+        position:absolute;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+        font-weight: 700;
+        font-size: 80px;
+        color:bisque;
+        text-transform:uppercase;
+        left: 50px;
+        top: 10px;
+        text-decoration: underline;
+        
+        
+        
+}
+
+.service{
+    
+    font-size: 30px;
+    
+      
+}
+.para1{
+    width: 530px;
+    margin-left: 390px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.side-img{
+    background-image: url(/assets/images/side-img.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 450px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+.inner1{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+#explore{
+    background-color:gainsboro;
+    padding: 50px;
+
+}
+.co{
+    background-color: #262626;
+}
+.anchor{
+    text-decoration: none;
+    color: #262626;
+    
+}
+.anchor:hover{
+    color: dimgrey;
+    font-size: 15px;
+}
+.p{
+    background-color: rgb(252, 185, 162);
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(57, 56, 69);
+    font-family: Baskerville Old Face;
+    border-radius: 10px;
+    
+}
+.para{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 19px;
+    margin-top: 20px;
+    width: 820px;
+    margin-left: 20px;
+}
+.sighs{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.heading_text{
+    font-weight: 700;
+    font-family: QuestaSans,Arial,Helvetica,"Helvetica Neue",sans-serif;
+    color: #393845;
+}
+
+.journey{
+    font-size: 15px;
+   font-weight: 600;
+   
+}
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card21 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+  }
+  
+  .fa {font-size:50px;}
+  .visitor{
+margin-left: 250px;
+margin-bottom: 100px;
+  }
+  .oo{
+    border-bottom: 4px solid rgb(252, 185, 162,);
+    border-top: 4px solid rgb(252, 185, 162);
+    margin-bottom: 40px;
+    margin-left: 20px;  
+}
+.modern{
+    margin-left: 32px;
+}
+.modern1{
+    margin-left: 40px;
+}
+.modern2{
+    margin-left: 22px;
+}
+    @media screen and (max-width:600px) {
+        .para1{
+            margin-left: 25px;
+        }
+        
+    }
+    /* Faq Start */
+.container1-fluid .row .col-xl-12 .faq-title{
+    color: white;
+    background-color:rgb(252, 185, 162);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: algebrian;
+    margin-bottom: 10px;
+    margin-top: 130px;
+    border-radius: 2px;
+
+}
+
+.container1 .row .col-xl-6{
+
+    margin-top: -100px;
+}
+.container1 .row .col-xl-6 .accordion-item .accordion-header .accordion-button{
+
+    border: #f74236 4px solid;
+    background-color:rgb(252, 185, 162);
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: algebrian;
+    border-radius: 2px;
+    font-weight: bold;
+    
+}
+
+
+.container1 .row .col-xl-6 .accordion-item .accordion-collapse .accordion-body{
+    border: 2px dotted #f74236;
+    background-color:rgb(252, 185, 162);
+    font-size: 20px;
+    font-family: algebrian;
+    
+}
+
+
+
+
+/* Faq End */
